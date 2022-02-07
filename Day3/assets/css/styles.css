@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	background: #1f1f1f;
+	color: #fff;
+	width: 66%;
+    /* only works when width is mentioned*/
+    margin: 0 auto;
+}
+.TitleBlock h1 {
+
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin: 4rem 0 2rem;
+
+
+}
+#TitleBlock__Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TitleBlock__Description{
+    color: rgb(197,190,190);
+}
+span {
+    font-weight: bold;
+}
+.SubNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #313131;
+    border-radius: 0.5rem;
+}
+
+.SubNav__links {
+    color: #fff;
+    text-decoration: none ;
+    font-size: 1.2rem;
+    font-weight:800;
+    transition: all 0.5s ease;
+}
+
+.SubNav__links:hover {
+    color: rgb(102,102,102);
+    font-size: 1.5rem;
+    transition:all 0.5s ease;
+
+
+}
+.Media {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 25rem;
+	margin: 2rem 0;
+}
+
+#Media__Poster {
+	height: 100%;
+	width: 100%;
+	flex: 1;
+	transition: all 0.5s ease-in-out;
+}
+
+#Media__Poster:hover {
+	transform: scale(1.1);
+	transition: all 0.5s ease-in-out;
+}
+
+#Media__Video {
+	height: 100%;
+	width: 100%;
+	flex: 3;
+}
+
+.Media__SideContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	flex: 0.75;
+}
+
+.Media__SideContainer-Content {
+	background: #313131;
+	width: 100%;
+    height: 100%;
+	margin: 2px;
+	flex: 1;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Media__SideContainer-Content:hover {
+	background: #414141;
+	cursor: pointer;
+}
+.GenreAndPlot__GenreChip {
+    border: solid 2px #ccc;
+    border-radius: 5rem;
+}
